@@ -29,6 +29,7 @@
 		F731F6AD2AF3AD4400B6F2E4 /* DrugOaymentSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731F6AC2AF3AD4400B6F2E4 /* DrugOaymentSuccessView.swift */; };
 		F731F6AF2AF3AE1000B6F2E4 /* AmbulaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731F6AE2AF3AE1000B6F2E4 /* AmbulaceView.swift */; };
 		F731F6B12AF3BA1700B6F2E4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731F6B02AF3BA1700B6F2E4 /* ProfileView.swift */; };
+		F731F7092AF94EC700B6F2E4 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731F7082AF94EC700B6F2E4 /* LogoutView.swift */; };
 		F75335602AE565200043C432 /* FirstUIAssighmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753355F2AE565200043C432 /* FirstUIAssighmentApp.swift */; };
 		F75335622AE565200043C432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75335612AE565200043C432 /* ContentView.swift */; };
 		F75335642AE565230043C432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75335632AE565230043C432 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		F731F6AC2AF3AD4400B6F2E4 /* DrugOaymentSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugOaymentSuccessView.swift; sourceTree = "<group>"; };
 		F731F6AE2AF3AE1000B6F2E4 /* AmbulaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulaceView.swift; sourceTree = "<group>"; };
 		F731F6B02AF3BA1700B6F2E4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F731F7082AF94EC700B6F2E4 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
 		F753355C2AE565200043C432 /* FirstUIAssighment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstUIAssighment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F753355F2AE565200043C432 /* FirstUIAssighmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUIAssighmentApp.swift; sourceTree = "<group>"; };
 		F75335612AE565200043C432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				F731F6AC2AF3AD4400B6F2E4 /* DrugOaymentSuccessView.swift */,
 				F731F6AE2AF3AE1000B6F2E4 /* AmbulaceView.swift */,
 				F731F6B02AF3BA1700B6F2E4 /* ProfileView.swift */,
+				F731F7082AF94EC700B6F2E4 /* LogoutView.swift */,
 			);
 			path = FirstUIAssighment;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				F75335742AE5ACA90043C432 /* SecondUI-2.swift in Sources */,
 				F731F6A72AF3963900B6F2E4 /* PharmacyView.swift in Sources */,
 				F731F6AB2AF3A3B600B6F2E4 /* MyCartView.swift in Sources */,
+				F731F7092AF94EC700B6F2E4 /* LogoutView.swift in Sources */,
 				F731F6732AF274C400B6F2E4 /* CreatPasswordSuccess.swift in Sources */,
 				F731F6712AF2724A00B6F2E4 /* CreatNewPassword.swift in Sources */,
 				F731F6812AF2CE7F00B6F2E4 /* chatView.swift in Sources */,

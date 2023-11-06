@@ -84,21 +84,24 @@ struct ProfileView: View {
                             }.foregroundColor(.white)
                         
                             
-                        }
+                        }.padding(.bottom,35)
                         
                         RoundedRectangle(cornerRadius: 30)
                             .fill(.white)
                             .frame(width: 390,height: 560)
                             .overlay {
                                 VStack{
-                                    ForEach(ProfileArray){data in Profile(list: data)
+                            ForEach(ProfileArray){data in Profile(list: data)
+                                if  ProfileArray.last?.id != data.id{
+                                            Divider()
+                                    .padding(.horizontal)
+                                        }
                                         
-                                        Divider()
-                                            .padding(.horizontal)
-                                    }
+                                          
+                                    }.padding(.vertical,-8)
+
                                     Spacer()
-                                }
-                            }
+                                } .padding(.top)                           }
                     }
                 }
             }
